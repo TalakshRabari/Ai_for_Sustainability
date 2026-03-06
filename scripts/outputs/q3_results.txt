@@ -1,0 +1,25 @@
+==================================================
+Land Use Classification Results
+==================================================
+
+Model       : ResNet18 (pretrained, fine-tuned)
+Classes     : ['Built-up', 'Cropland', 'Others', 'Vegetation', 'Water']
+Train size  : 4809
+Test size   : 3206
+
+Accuracy      : 0.9429
+F1 (weighted) : 0.9427
+F1 (macro)    : 0.8078
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Built-up       0.91      0.93      0.92       711
+    Cropland       0.97      0.97      0.97      2190
+      Others       0.50      1.00      0.67         1
+  Vegetation       0.84      0.80      0.82       301
+       Water       0.67      0.67      0.67         3
+
+    accuracy                           0.94      3206
+   macro avg       0.78      0.87      0.81      3206
+weighted avg       0.94      0.94      0.94      3206

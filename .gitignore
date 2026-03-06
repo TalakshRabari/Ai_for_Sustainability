@@ -1,0 +1,5 @@
+myvenv/ 
+worldcover_bbox_delhi_ncr_2021.tif 
+rgb/ 
+*.tif 
+*.dll 
